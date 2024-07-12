@@ -157,6 +157,7 @@ img {
   position: relative;
   padding-top: 70px;
   padding-bottom: 78px;
+  overflow-y: hidden;
 }
 
 .about-container {
