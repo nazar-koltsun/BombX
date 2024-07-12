@@ -6,6 +6,7 @@
   <title>BombX</title>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animate.min.css">
   <script src="scripts/script.js" defer></script>
 </head>
 <body>
@@ -13,15 +14,15 @@
     <div class="header-container container">
       <div class="header-top">
         <img src="images/logo.png" width="82px" height="75" alt="BombX logo">
-        <a class="btn"  href="#">BUY TOKEN</a>
+        <a class="btn animate__animated animate__backInRight"  href="#">BUY TOKEN</a>
       </div>
       <div class="header-main">
         <h1 class="header-title screen-reader-only">BOMBX</h1>
         <img src="images/title.png" width="1445" height="505" alt="BOMBX">
-        <img class="header-bomb-img" width="980" height="899" src="images/bomb.png" alt="">
+        <img class="animate__animated animate__fadeIn header-bomb-img" width="980" height="899" src="images/bomb.png" alt="">
       </div>
       
-      <div class="header-actions">
+      <div class="header-actions animate__animated animate__fadeInUp">
         <a class="btn" href="#">DEXTOOLS</a>
         <div class="btn code-wrapper">
           <span class="code">7YDWWSCMKWG.........BUM4OTVQZYUPZ2P</span>
@@ -53,18 +54,18 @@
     <section class="about">
       <div class="container about-container">
         <h2 class="screen-reader-only">WHO ARE WE</h2>
-        <img src="images/who-are-we.png" width="762" height="181" alt="WHO ARE WE">
-        <div class="about-info-wrap">
+        <img class="animate__animated animate__fadeInLeft" src="images/who-are-we.png" width="762" height="181" alt="WHO ARE WE">
+        <div class="about-info-wrap animate__animated animate__fadeInUp animate__delay-1s">
           <div class="about-info">
             <p>
               $BOMBX is a fun meme token with a total supply of 1 billion coins. It brings excitement and community spirit to the crypto world through memes and social media. Join the BOMBX community to trade, engage, and enjoy the ride!
             </p>
           </div>
-          <div class="about-social">
-            <a class="btn about-social-btn" href="#">TWITTER(X)</a>
-            <a class="btn about-social-btn" href="#">TELEGRAM</a>
-            <a class="btn about-social-btn" href="#">DEXTOOLS</a>
-            <a class="btn about-social-btn" href="#">RAYDIUM</a>
+          <div class="social">
+            <a class="btn social-btn" href="#">TWITTER(X)</a>
+            <a class="btn social-btn" href="#">TELEGRAM</a>
+            <a class="btn social-btn" href="#">DEXTOOLS</a>
+            <a class="btn social-btn" href="#">RAYDIUM</a>
           </div>
           <div class="about-features">
             <div class="about-features-item">
@@ -99,6 +100,50 @@
         <span class="promo-string-text">$BOMBX</span>
       </div>
     </div>
+    <section class="how-to">
+      <div class="container how-to-container">
+        <h2 class="screen-reader-only">HOW TO BUY</h2>
+        <img src="images/how-to-buy.png" width="708" height="181" alt="HOW TO BUY">
+        <ol class="how-to-list">
+          <li class="how-to-item">
+            <span class="how-to-item-number">1</span>
+            <div class="how-to-item-info">
+              <h3 class="how-to-item-title">DOWNLOAD SOLANA WALLET</h3>
+              <img class="how-to-item-icon" width="36" height="28" src="images/icon-1.svg" alt="">
+            </div>
+          </li>
+          <li class="how-to-item">
+            <span class="how-to-item-number">2</span>
+            <div class="how-to-item-info">
+              <h3 class="how-to-item-title">GET SOME SOLANA USING IT</h3>
+              <img class="how-to-item-icon" width="37" height="31" src="images/icon-2.svg" alt="">
+            </div>
+          </li>
+          <li class="how-to-item">
+            <span class="how-to-item-number">3</span>
+            <div class="how-to-item-info">
+              <h3 class="how-to-item-title">BUY $BOMBX USING SOLANA</h3>
+              <img class="how-to-item-icon" width="48" height="48" src="images/icon-3.png" alt="">
+            </div>
+          </li>
+        </ol>
+      </div>
+      <img class="star-bg" src="images/star-bg-footer.png" alt="" role="presentation">
+      <img class="left-gloves" src="images/left-gloves.png" alt="" role="presentation">
+      <img class="right-gloves" src="images/rigth-gloves.png" alt="" role="presentation">
+    </section>
   </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <a class="btn" href="#">BOMBX</a>
+      <div class="social">
+        <a class="btn social-btn" href="#">TWITTER(X)</a>
+        <a class="btn social-btn" href="#">TELEGRAM</a>
+        <a class="btn social-btn" href="#">DEXTOOLS</a>
+        <a class="btn social-btn" href="#">RAYDIUM</a>
+      </div>
+      <a class="btn" href="#">BUY TOKEN</a>
+    </div>
+  </footer>
 </body>
 </html>
