@@ -46,7 +46,7 @@ img {
   border: 2px solid #000000;
   border-radius: 8px;
   box-shadow: 0 2px 0 0 #000000;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .btn:hover {
@@ -321,6 +321,15 @@ img {
 .footer .social {
   margin-top: 0;
   max-width: 708px;
+}
+
+.how-to-item-icon-box {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 2100px) {
