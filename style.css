@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'American Captain';
+  src: url('fonts/american_captain/American\ Captain.ttf') format('truetype');
+  font-weight: 400;
+}
+
+body {
+  background: #fe1818;
+  font-family: 'American Captain', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.screen-reader-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 15px 49px 10px;
+  box-sizing: border-box;
+  color: inherit;
+  background: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 0 0 #000000;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: #FFAA6F;
+}
+
+.header {
+  position: relative;
+  padding-top: 31px;
+  padding-bottom: 71px;
+}
+
+.star-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+.header-container {
+  width: 1632px;
+}
+
+.header-top {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-main {
+  position: relative;
+  margin-top: 10.5%;
+  text-align: center;
+}
+
+.header-bomb-img {
+  position: absolute;
+  top: -45%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 68%;
+}
+
+.header-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  gap: 16px;
+}
+
+.code-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.code-wrapper:hover {
+  background-color: #ffffff;
+}
+
+.code {
+  margin-top: 4px;
+}
+
+.copy-btn {
+  padding: 7px 18px 3px;
+  box-shadow: none;
+  background-color: #FFAA6F;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background-color: #ff5f5f;
+}
+
+@media (max-width: 1800px) {
+  .star-bg {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .header {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
+  .header-actions {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
